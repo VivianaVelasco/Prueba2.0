@@ -56,13 +56,13 @@ public class SnakeModel extends GameModel {
 
 	/** Graphical representation of the snake's head */
 	private static final GameTile SNAKE_HEAD_TILE = new RectangularTile(Color.GRAY);
-	
+	//Sociedad
 	/** Graphical representation of a blank tile. */
 	private static final GameTile BLANK_TILE = new GameTile();
 
 	/** A list containing the position of the snake (with it's tail). */
 	private final LinkedList<Position> snake = new LinkedList<Position>();
-	
+	//Empanada de Queso
 	/** The starting length of the snake */
 	private final int INITIAL_SNAKE_LENGTH = 20;
 	
