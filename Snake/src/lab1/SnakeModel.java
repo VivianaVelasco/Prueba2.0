@@ -28,7 +28,7 @@ public class SnakeModel extends GameModel {
 			this.xDelta = xDelta;
 			this.yDelta = yDelta;
 		}
-
+// holiiiiiiii
 		public int getXDelta() {
 			return this.xDelta;
 		}
