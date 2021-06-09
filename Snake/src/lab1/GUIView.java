@@ -94,7 +94,7 @@ public class GUIView extends JPanel {
 		@Override
 		public void actionPerformed(final ActionEvent e) {
 			Object source = e.getSource();
-
+			//Sociedadddddd
 			if (source == GUIView.this.startGameButton) {
 				// Get the name of the game selected in the Choice
 				String gameName =
@@ -108,6 +108,6 @@ public class GUIView extends JPanel {
 				GUIView.this.gameController.startGame(gameModel);
 				GUIView.this.gameView.requestFocus();
 			}
-		}
+		}//Tengo Sueno, Quiero hacer la mimicion
 	}
 }
